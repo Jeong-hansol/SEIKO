@@ -137,3 +137,53 @@ a:visited{
 	position:absolute;
 	transition:1s;
 }
+
+.text1>.new{
+	font-family:"나눔스퀘어_ac";
+	text-align:center;
+	font-size:35px;
+	margin-top:150px;
+}
+
+.collection{
+	width:1600px;
+	height:650px;
+	margin:0 auto;
+	margin-top:100px;
+}
+
+.collection2>img{
+	opacity:60%;
+	width:370px;
+	height:650px;
+}
+
+.collection2>img:hover{
+	opacity:100%;
+	cursor:pointer;
+}
+
+.us_title{
+	text-align:center;
+	margin-top:150px;
+}
+
+.us_title>a>img{
+	width:300px;
+	height:220px;
+}
+
+.us{
+	width:1400px;
+	height:300px;
+	margin:0 auto;
+	margin-top:-40px;
+	text-align:center;
+}
+
+.us>a>img{
+	width:280px;
+	height:300px;
+	margin-right:60px;
+	cursor:pointer;
+}
