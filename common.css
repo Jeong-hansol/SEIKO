@@ -395,3 +395,69 @@ a:visited{
 .button_4 button{
 	cursor:pointer;
 }
+
+#content{
+	color:black;
+	cursor:pointer;
+	margin-top:100px;
+}
+
+#content .content-wrap{
+	width:100%; 
+	background-color:black; 
+	color:white;
+}
+
+#content .content-wrap>ul{
+	max-width:1700px; 
+	margin:0 auto; 
+	overflow:hidden;
+}
+
+#content .content-wrap > ul:after{
+	content:""; 
+	display:block; 
+	clear:both;
+}
+
+#content .content-wrap > ul > li{
+	float:left; 
+	text-align:center; 
+	height:380px; 
+	text-shadow:1px 1px 1px #292929;
+}
+
+#content .content-wrap > ul > li.ct-1{
+	width:25%; 
+	background:url(../img/world_1_1.jpg) center no-repeat; 
+	background-size:100%;
+}
+
+#content .content-wrap > ul > li.ct-2{
+	width:50%; 
+	background:url(../img/world_2_1.jpg) center no-repeat; 
+	background-size:100%;
+}
+
+#content .content-wrap > ul > li.ct-3{
+	width:25%; 
+	background: url(../img/world_3_1.jpeg) center no-repeat; 
+	background-size:100%;
+}
+
+#content .content-wrap > ul > li.ct-4{
+	width:60%; 
+	background: url(../img/world_4_1.jpg) center no-repeat; 
+	background-size:100%;
+}
+
+#content .content-wrap > ul > li.ct-5{
+	width:40%; 
+	background: url(../img/world_5_1.jpg) center no-repeat; 
+	background-size:100%;
+}
+
+#content .content-wrap > ul > li > a{
+	display:block; 
+	height:380px;
+}
