@@ -414,12 +414,6 @@ a:visited{
 	overflow:hidden;
 }
 
-#content .content-wrap > ul:after{
-	content:""; 
-	display:block; 
-	clear:both;
-}
-
 #content .content-wrap > ul > li{
 	float:left; 
 	text-align:center; 
@@ -457,7 +451,120 @@ a:visited{
 	background-size:100%;
 }
 
-#content .content-wrap > ul > li > a{
+#content .content-wrap > ul > li.ct-1:hover,#content .content-wrap > ul > li.ct-1:focus{
+	background:url(../img/world_1_2.jpeg) center no-repeat; 
+	background-size:100%; 
+	transition:1s ease-in-out;
+}
+
+#content .content-wrap > ul > li.ct-2:hover,#content .content-wrap > ul > li.ct-2:focus{
+	background:url(../img/world_2_2.jpg) center no-repeat; 
+	background-size:100%; 
+	transition:1s ease-in-out;
+}
+
+#content .content-wrap > ul > li.ct-3:hover,#content .content-wrap > ul > li.ct-3:focus{
+	background:url(../img/world_3_2.jpg) center no-repeat; 
+	background-size:100%; 
+	transition:1s ease-in-out;
+}
+
+#content .content-wrap > ul > li.ct-4:hover,#content .content-wrap > ul > li.ct-4:focus{
+	background:url(../img/world_4_2.jpg) center no-repeat; 
+	background-size:100%; 
+	transition:1s ease-in-out;
+}
+
+#content .content-wrap > ul > li.ct-5:hover,#content .content-wrap > ul > li.ct-5:focus{
+	background:url(../img/world_5_2.jpg) center no-repeat; 
+	background-size:100%; 
+	transition:1s ease-in-out;
+}
+
+#content .content-wrap h3.card-title{
+	font-size:20px; 
+	margin-bottom:15px; 
+	padding-top:285px;
+}
+
+#content .content-wrap p.card-text{
+	font-size:15px; 
+	margin-bottom:15px;
+}
+
+#content .content-wrap p.card-btn{
+	display:none; 
+	width:100px;
+	margin:0 auto;
+	padding:2px;
+}
+
+#content .content-wrap > ul > li:hover h3.card-title,#content .content-wrap > ul > li:focus h3.card-title{
+	padding-top:250px; 
+	transition:0.7s;
+}
+
+#content .content-wrap > ul > li:hover p.card-btn,#content .content-wrap > ul > li:focus p.card-btn{
 	display:block; 
-	height:380px;
+	border:1px solid #fff;
+}
+
+#bg-story{
+	margin:150px 0; 
+	font-size:20px; 
+	text-shadow:1px 1px 1px #292929;
+	background:url(../img/seiko_back.png) center; 
+	background-size:cover;
+}
+
+#bg-story .text-wrap{
+	max-width:1200px;
+	min-height:540px; 
+	margin:0 auto; 
+	text-align:center; 
+	letter-spacing:2px;
+	color:white;
+}
+
+#bg-story p.info{
+	padding-top:170px;
+	padding-bottom:5px;
+	font-size:16px;
+	letter-spacing:3px;
+}
+
+#bg-story p.title{
+	margin-bottom:30px;
+}
+
+#bg-story p.title:after{
+	content:""; 
+	display:block; 
+	width:90px; 
+	height:2px; 
+	background-color:white;
+	margin:0 auto;
+	margin-top:30px;
+}
+
+#bg-story p.text{
+	margin-bottom:35px; 
+	font-size:18px;
+}
+
+#bg-story p.btn{
+	width:100px; 
+	border:2px solid #fff;
+	margin:0 auto; 
+	padding:4px; 
+	font-size:14px;
+	cursor:pointer;
+}
+
+#bg-story p.btn:hover{
+	background-color:white; 
+	color:#1a1a1a; 
+	transition:0.7s; 
+	text-shadow:none; 
+	font-weight:bold;
 }
