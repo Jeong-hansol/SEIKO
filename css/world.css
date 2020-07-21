@@ -255,6 +255,68 @@ a:visited{
 	cursor:pointer;
 }
 
+#seiko-h .year{
+	text-align:center; 
+	line-height:250px; 
+	font-size:40px;
+}
+
+#seiko-h .y-1881{
+	background:url("../img/bg_y.png") center 0 no-repeat; 
+	background-size:cover; 
+	color:white;
+}
+
+#seiko-h .ht-l, #seiko-h .ht-r{
+	overflow:hidden; 
+	color:black;
+}
+
+.ht-l img{
+	float:left; 
+	width:39%; 
+	height:350px;
+}
+
+.ht-r img{
+	float:right; 
+	width:39%; 
+	height:350px;
+}
+
+.ht-yb{
+	width:20%; 
+	float:left; 
+	font-size:55px; 
+	text-align:center; 
+	line-height:350px;
+}
+
+.ht-r .ht-yb{
+	background-color:#eee;
+}
+
+.ht-tw{
+	float:right; 
+	width:37%;
+	height:350px; 
+	padding:20px;
+}
+
+.ht-r .ht-tw{
+	float:left;
+}
+
+.ht-tb h3{
+	font-size:25px;
+	padding:55px 0; 
+	font-weight:bold;
+}
+
+.ht-tb p{
+	font-size:17px;
+}
+
 .copyright{
 	width:100%
 	height:100%;
