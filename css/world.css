@@ -267,6 +267,30 @@ a:visited{
 	color:white;
 }
 
+#seiko-h .y-1960{
+	background:url("../img/bg_y.png") center 0 no-repeat; 
+	background-size:cover; 
+	color:white;
+}
+
+#seiko-h .y-1980{
+	background:url("../img/bg_y.png") center 0 no-repeat; 
+	background-size:cover; 
+	color:white;
+}
+
+#seiko-h .y-2000{
+	background:url("../img/bg_y.png") center 0 no-repeat; 
+	background-size:cover; 
+	color:white;
+}
+
+#seiko-h .y-2010{
+	background:url("../img/bg_y.png") center 0 no-repeat; 
+	background-size:cover; 
+	color:white;
+}
+
 #seiko-h .ht-l, #seiko-h .ht-r{
 	overflow:hidden; 
 	color:black;
