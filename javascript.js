@@ -47,3 +47,4 @@ $(".us_4").click(function(){
 $("#modal_4 button").click(function(){
 	$("#modal_4").removeClass("active");
 })
+
